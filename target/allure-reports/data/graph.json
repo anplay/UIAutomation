@@ -1,0 +1,14 @@
+{
+  "testCases" : [ {
+    "uid" : "dff29e0b38629c3f",
+    "name" : "firstTest",
+    "title" : "First test",
+    "time" : {
+      "start" : 1473689588521,
+      "stop" : 1473689588576,
+      "duration" : 55
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  } ]
+}
