@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe96bf73-447d-49af-af91-95036719733e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drivers/chrome/linux64/chromedriver" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drivers/chrome/mac32/chromedriver" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pom/components/AbstractFragment.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pom/components/AbstractFragmentInterface.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/pom/components/AbstractSitePage$1.class" />
@@ -50,7 +48,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/stepdefs.properties" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/stepdefs.properties" afterPath="$PROJECT_DIR$/src/main/resources/stepdefs.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utils/WebDriverFactory.java" afterPath="$PROJECT_DIR$/src/main/java/utils/WebDriverFactory.java" />
     </list>
     <list id="b6d36c64-400d-454b-8bf7-7c2ce298fddd" name="UnversionedFiles" comment="" />
     <ignored path="UIAutomation.iws" />
@@ -107,10 +105,10 @@
       <file leaf-file-name="WebDriverFactory.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/WebDriverFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14468086">
-              <caret line="154" column="26" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.39787233">
+              <caret line="155" column="24" selection-start-line="155" selection-start-column="24" selection-end-line="155" selection-end-column="24" />
               <folding>
-                <marker date="1474470216250" expanded="true" signature="3460:3944" placeholder="..." />
+                <marker date="1474545964292" expanded="true" signature="3460:3944" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -265,7 +263,6 @@
         <option value="$PROJECT_DIR$/src/main/java/pom/google/pages/GoogleMainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pom/components/WebComponentFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/tools/WebElementWait.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/WebDriverFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/pom/components/AbstractFragment.java" />
         <option value="$PROJECT_DIR$/src/main/java/pom/components/AbstractFragmentInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/pom/components/iframecomponents/IFrameFragmentProxy.java" />
@@ -278,6 +275,7 @@
         <option value="$PROJECT_DIR$/src/main/java/utils/ConfigurationHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/ConfigurationService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/stepdefs.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/WebDriverFactory.java" />
       </list>
     </option>
   </component>
@@ -1003,7 +1001,13 @@
       <option name="project" value="LOCAL" />
       <updated>1474543143140</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added chrome drivers">
+      <created>1474545918572</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1474545918572</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1025,7 +1029,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-2" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1037,7 +1041,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44481605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277592" sideWeight="0.4939302" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15085287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15085287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1089,7 +1093,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor and add first Selenium test + geberate allure report" />
     <MESSAGE value="minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
+    <MESSAGE value="added chrome drivers" />
+    <option name="LAST_COMMIT_MESSAGE" value="added chrome drivers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1604,10 +1609,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/WebDriverFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14468086">
-          <caret line="154" column="26" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.39787233">
+          <caret line="155" column="24" selection-start-line="155" selection-start-column="24" selection-end-line="155" selection-end-column="24" />
           <folding>
-            <marker date="1474470216250" expanded="true" signature="3460:3944" placeholder="..." />
+            <marker date="1474545964292" expanded="true" signature="3460:3944" placeholder="..." />
           </folding>
         </state>
       </provider>

@@ -156,9 +156,9 @@ public class WebDriverFactory {
 		if (isWindows())
 			System.setProperty(WEBDRIVER_CHROME_BIN_SYSTEM_PROPERTY, "drivers/chrome/win32/chromedriver.exe");
 		else if (isMac())
-			System.setProperty(WEBDRIVER_CHROME_BIN_SYSTEM_PROPERTY, "chrome/mac32/chromedriver");
+			System.setProperty(WEBDRIVER_CHROME_BIN_SYSTEM_PROPERTY, "drivers/chrome/mac32/chromedriver");
 		else
-			System.setProperty(WEBDRIVER_CHROME_BIN_SYSTEM_PROPERTY, "chrome/linux64/chromedriver");
+			System.setProperty(WEBDRIVER_CHROME_BIN_SYSTEM_PROPERTY, "drivers/chrome/linux64/chromedriver");
 		ChromeDriverService service = ChromeDriverService.createDefaultService();
 		try {
 			service.start();
