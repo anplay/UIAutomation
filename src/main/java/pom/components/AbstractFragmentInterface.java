@@ -4,7 +4,6 @@ import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import com.codeborne.selenide.SelenideElement;
 
 
 public interface AbstractFragmentInterface {
@@ -51,7 +50,7 @@ public interface AbstractFragmentInterface {
 
 	WebElement getChildElement(By byLocator);
 
-	List<SelenideElement> getChildElements(By byLocator);
+	List<WebElement> getChildElements(By byLocator);
 
 	boolean hasChildElement(By by);
 

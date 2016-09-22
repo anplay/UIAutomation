@@ -12,7 +12,6 @@ public class IFrameAwareInterfaceImpl extends AbstractFragment implements IFrame
 	protected boolean isSwitchedToIFrame;
 	private WebElement iFrameRoot;
 
-	@Override
 	protected void setRootElement(WebElement rootElement) {
 		super.setRootElement(rootElement);
 	}

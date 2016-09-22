@@ -1,6 +1,9 @@
 package pom.google.pages;
 
+import static pom.components.WebComponentFactory.createFragment;
+
 import pom.components.AbstractSitePage;
+import pom.google.fragments.SearchFragment;
 
 
 public class GoogleMainPage extends AbstractSitePage {
@@ -15,5 +18,8 @@ public class GoogleMainPage extends AbstractSitePage {
 		setBodyClass(BODY_CLASS);
 	}
 
+	public SearchFragment getSearchFragment() {
+		return createFragment(SearchFragment.class);
+	}
 
 }

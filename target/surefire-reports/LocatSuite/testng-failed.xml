@@ -5,7 +5,7 @@
     <classes>
       <class name="FirstTestClass">
         <methods>
-          <include name="firstTest"/>
+          <include name="googleTest"/>
         </methods>
       </class> <!-- FirstTestClass -->
     </classes>

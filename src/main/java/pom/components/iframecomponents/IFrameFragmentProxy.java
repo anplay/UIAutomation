@@ -6,8 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 
-import com.codeborne.selenide.SelenideElement;
-
 import pom.components.AbstractFragmentInterface;
 import pom.components.AbstractWebComponent;
 import pom.components.proxy.IFrameAwareMethodInterceptor;
@@ -217,7 +215,7 @@ public class IFrameFragmentProxy extends AbstractWebComponent implements Abstrac
 	}
 
 	@Override
-	public List<SelenideElement> getChildElements(By byLocator) {
+	public List<WebElement> getChildElements(By byLocator) {
 		return iFrameAwareFragment.getChildElements(byLocator);
 	}
 

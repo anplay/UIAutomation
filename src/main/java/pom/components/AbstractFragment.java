@@ -4,14 +4,14 @@ import static com.codeborne.selenide.Condition.hidden;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 
+import java.util.List;
+
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
 import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.ElementsCollection;
-import com.codeborne.selenide.SelenideElement;
 
 import utils.tools.WebElementTools;
 
@@ -21,13 +21,13 @@ public class AbstractFragment extends AbstractWebComponent implements AbstractFr
 	protected static final long TIME_TO_WAIT = 5000;
 	private static final String EXCEPTION_MESSAGE_FOR_FRAGMENT = "Fragment %s is not visible";
 
-	private SelenideElement rootElement;
+	private WebElement rootElement;
 
-	protected SelenideElement getRootElement() {
+	protected WebElement getRootElement() {
 		return rootElement;
 	}
 
-	protected void setRootElement(SelenideElement rootElement) {
+	protected void setRootElement(WebElement rootElement) {
 		this.rootElement = rootElement;
 	}
 
@@ -150,13 +150,13 @@ public class AbstractFragment extends AbstractWebComponent implements AbstractFr
 	}
 
 	@Override
-	public SelenideElement getChildElement(By byLocator) {
+	public WebElement getChildElement(By byLocator) {
 		return $(getRootElement()).find(byLocator);
 	}
 
 	@Override
-	public ElementsCollection getChildElements(By byLocator) {
-		return $(getRootElement()).findAll(byLocator);
+	public List<WebElement> getChildElements(By byLocator) {
+		return $(getRootElement()).findElements(byLocator);
 	}
 
 	@Override

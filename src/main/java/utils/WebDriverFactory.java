@@ -33,6 +33,7 @@ import utils.tools.ResultKeeper;
 
 public class WebDriverFactory {
 	private static final String WEBDRIVER_FIREFOX_BIN_SYSTEM_PROPERTY = "webdriver.firefox.bin";
+	private static final String WEBDRIVER_CHROME_BIN_SYSTEM_PROPERTY = "webdriver.chrome.driver";
 	private static final int TWO_HOURS = 7200;
 	private static final long DEFAULT_WAIT_MILLISECONDS = 30000;
 	private Logger logger = LoggerFactory.getLogger(this.getClass());
@@ -153,17 +154,17 @@ public class WebDriverFactory {
 	private static ChromeDriverService startChromeService() {
 		File chromeDriver;
 		if (isWindows())
-			chromeDriver = new File("drivers/chrome/win32/chromedriver.exe");
+			System.setProperty(WEBDRIVER_CHROME_BIN_SYSTEM_PROPERTY, "drivers/chrome/win32/chromedriver.exe");
 		else if (isMac())
-			chromeDriver = new File("drivers/chrome/mac32/chromedriver");
+			System.setProperty(WEBDRIVER_CHROME_BIN_SYSTEM_PROPERTY, "chrome/mac32/chromedriver");
 		else
-			chromeDriver = new File("drivers/chrome/linux64/chromedriver");
+			System.setProperty(WEBDRIVER_CHROME_BIN_SYSTEM_PROPERTY, "chrome/linux64/chromedriver");
 		ChromeDriverService service = ChromeDriverService.createDefaultService();
 		try {
 			service.start();
 		} catch (IOException e) {
 			throw new IllegalStateException(String.format("Unable to start chrome driver from location '%s': \n %s",
-					chromeDriver.getAbsolutePath(), e.getMessage()));
+					System.getProperty(WEBDRIVER_CHROME_BIN_SYSTEM_PROPERTY), e.getMessage()));
 		}
 		registerService(service);
 		return extractCurrentService().getResult();
