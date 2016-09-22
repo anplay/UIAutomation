@@ -8,9 +8,7 @@ public class ConfigurationService {
 	private static final Object SYN_OBJ = new Object();
 	private static Configuration CONFIGURATION = null;
 
-	private ConfigurationService() {
-
-	}
+	private ConfigurationService() {}
 
 	public static Configuration getConfigInstance() {
 		if (CONFIGURATION == null)
