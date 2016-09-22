@@ -1,10 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe96bf73-447d-49af-af91-95036719733e" name="Default" comment="">
+    <list default="true" id="fe96bf73-447d-49af-af91-95036719733e" name="Default" comment="minor changes">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/flash/clippy.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/img/allure-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/img/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/img/tests_passed.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/webjars/font-awesome/4.2.0/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/webjars/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/webjars/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/webjars/font-awesome/4.2.0/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/drivers/chrome/win32/chromedriver.exe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/css/app.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/61ec9262adbb2d4b-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/627906becf032ce9-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/8c712aac60316a23-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/a131940fd1ffb183-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/a8ac7eaaed8f940e-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/b07a5061c8bfe726-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/b9a3550ae7b8127-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/behaviors.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/d151ebc67f61ae27-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/defects.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/e509f607dc5e861c-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/ed7cb18a00a22e26-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/environment.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/f1257b7bff93fbc2-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/f888211197cfb494-testcase.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/graph.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/plugins.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/report.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/timeline.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/total.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/widgets.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/data/xunit.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/js/charts/charts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/js/charts/duration.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/js/charts/pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/js/charts/severityMap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/js/charts/timeline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/js/controllers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/js/directives.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/js/filters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/js/overview/widgets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/js/pane/pane.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/js/pluginApi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/js/scrollfix/scrollfix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/js/services.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/js/table/table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/js/testcase/list.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/js/testcase/provider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/js/testcase/statusSwitcher.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/js/testcase/testcase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/behaviors/en.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/behaviors/ptbr.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/behaviors/ru.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/behaviors/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/behaviors/tab.tpl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/defects/en.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/defects/ptbr.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/defects/ru.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/defects/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/defects/tab.tpl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/environment/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/graph/en.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/graph/ptbr.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/graph/ru.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/graph/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/graph/tab.tpl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/timeline/en.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/timeline/ptbr.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/timeline/ru.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/timeline/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/timeline/tab.tpl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/total/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/xunit/en.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/xunit/ptbr.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/xunit/ru.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/xunit/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/xunit/tab.tpl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/xunit/testrun.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/plugins/xunit/testsuite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/templates/overview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/templates/overview/defects.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/templates/overview/keyValue.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/templates/overview/statistics.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/templates/overview/total.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/templates/table/table.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/templates/testcase/attachment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/templates/testcase/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/templates/testcase/status-switcher.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/templates/testcase/testcase.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/templates/testcase/testcaseView.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/translations/en.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/translations/ptbr.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/translations/ru.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/vendor/filesize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/vendor/localstorageprovider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/vendor/messageformat/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/vendor/messageformat/ptbr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/vendor/messageformat/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/webjars/Sortable/1.2.0/Sortable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/webjars/Sortable/1.2.0/ng-sortable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/webjars/angular-loading-bar/0.6.0/loading-bar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/webjars/angular-translate-interpolation-messageformat/0.1.2/angular-translate-interpolation-messageformat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/webjars/angular-translate-loader-partial/2.6.0/angular-translate-loader-partial.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/webjars/angular-translate/2.6.0/angular-translate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/webjars/angular-ui-bootstrap/0.11.2/ui-bootstrap-tpls.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/webjars/angular-ui-router/0.2.13/angular-ui-router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/webjars/angularjs/1.2.26/angular-animate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/webjars/angularjs/1.2.26/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/webjars/d3js/3.4.11/d3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/webjars/font-awesome/4.2.0/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/webjars/highlightjs/8.2-1/highlight.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/webjars/jquery/2.1.1/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allure-reports/webjars/messageformat.js/0.1.4/messageformat.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/allure-maven-plugin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/css/maven-base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/css/maven-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/css/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/css/site.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/collapsed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/expanded.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/external.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/icon_error_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/icon_info_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/icon_success_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/icon_warning_sml.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/logos/build-by-maven-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/logos/maven-feather.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/images/newwindow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/project-reports.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/LocatSuite/firstTest.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/LocatSuite/firstTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/LocatSuite/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-FirstTestClass.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/LocatSuite/classes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/LocatSuite/firstTest.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/LocatSuite/groups.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/LocatSuite/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/LocatSuite/main.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/LocatSuite/methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/LocatSuite/methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/LocatSuite/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/LocatSuite/reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/LocatSuite/testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/LocatSuite/toc.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/FirstTestClass.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/utils/ConfigurationService.java" afterPath="$PROJECT_DIR$/src/main/java/utils/ConfigurationService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/stepdefs.properties" afterPath="$PROJECT_DIR$/src/main/resources/stepdefs.properties" />
     </list>
     <list id="b6d36c64-400d-454b-8bf7-7c2ce298fddd" name="UnversionedFiles" comment="" />
     <ignored path="UIAutomation.iws" />
@@ -31,7 +198,7 @@
       <file leaf-file-name="stepdefs.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/stepdefs.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31264368">
+            <state vertical-scroll-proportion="0.43729904">
               <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
               <folding />
             </state>
@@ -843,7 +1010,13 @@
       <option name="project" value="LOCAL" />
       <updated>1474528931225</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="minor changes">
+      <created>1474542621121</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1474542621121</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -865,30 +1038,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-2" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5039019" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928944" sideWeight="0.5060698" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11673774" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2541806" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.4939302" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2753623" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277592" sideWeight="0.4939302" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15085287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50427353" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53065777" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -928,7 +1101,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor and add first Selenium test + geberate allure report" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor and add first Selenium test + geberate allure report" />
+    <MESSAGE value="minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1442,7 +1616,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/stepdefs.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31264368">
+        <state vertical-scroll-proportion="0.43729904">
           <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding />
         </state>

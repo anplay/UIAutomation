@@ -1,0 +1,48 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "6c0cf9a22f2517a0",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 2,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "a131940fd1ffb183",
+        "name" : "firstTest",
+        "title" : "First test",
+        "time" : {
+          "start" : 1474528135068,
+          "stop" : 1474528135102,
+          "duration" : 34
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e509f607dc5e861c",
+        "name" : "googleTest",
+        "title" : "Google test",
+        "time" : {
+          "start" : 1474528135300,
+          "stop" : 1474528141169,
+          "duration" : 5869
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

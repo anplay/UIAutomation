@@ -1,0 +1,49 @@
+{
+  "time" : {
+    "start" : 1474528135068,
+    "stop" : 1474528141169,
+    "duration" : 6101
+  },
+  "testSuites" : [ {
+    "uid" : "1c511f877f586dd0",
+    "name" : "LocatSuite : firstTest",
+    "title" : "LocatSuite : firstTest",
+    "time" : {
+      "start" : 1474528135068,
+      "stop" : 1474528141169,
+      "duration" : 6101
+    },
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "a131940fd1ffb183",
+      "name" : "firstTest",
+      "title" : "First test",
+      "time" : {
+        "start" : 1474528135068,
+        "stop" : 1474528135102,
+        "duration" : 34
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "e509f607dc5e861c",
+      "name" : "googleTest",
+      "title" : "Google test",
+      "time" : {
+        "start" : 1474528135300,
+        "stop" : 1474528141169,
+        "duration" : 5869
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

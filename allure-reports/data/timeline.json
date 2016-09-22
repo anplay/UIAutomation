@@ -1,0 +1,31 @@
+{
+  "hosts" : [ {
+    "title" : "EPUAKYIW2087",
+    "threads" : [ {
+      "title" : "17508@EPUAKYIW2087.main(1)",
+      "testCases" : [ {
+        "uid" : "a131940fd1ffb183",
+        "name" : "firstTest",
+        "title" : "First test",
+        "time" : {
+          "start" : 1474528135068,
+          "stop" : 1474528135102,
+          "duration" : 34
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e509f607dc5e861c",
+        "name" : "googleTest",
+        "title" : "Google test",
+        "time" : {
+          "start" : 1474528135300,
+          "stop" : 1474528141169,
+          "duration" : 5869
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
