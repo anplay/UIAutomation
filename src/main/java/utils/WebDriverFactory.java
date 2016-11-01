@@ -152,7 +152,6 @@ public class WebDriverFactory {
 	}
 
 	private static ChromeDriverService startChromeService() {
-		File chromeDriver;
 		if (isWindows())
 			System.setProperty(WEBDRIVER_CHROME_BIN_SYSTEM_PROPERTY, "drivers/chrome/win32/chromedriver.exe");
 		else if (isMac())
